@@ -1,1 +1,15 @@
 Lec2: Linear regression
+https://www.youtube.com/watch?v=4b4MUYve_U8&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=2
+
+Notes:
+https://machinelearningmedium.com/2017/08/11/cost-function-of-linear-regression/
+https://www.studocu.com/en-us/document/stanford-university/machine-learning/lecture-notes/cs229-notes-1-2-lecture-notes-1/6579953/view
+
+Gradient descent
+- Batch gradient descent 
+- Stochastic gradient descent : Instead of scanning through all examples, loop through j (parameter) and n (training set entry), one at a time and update theta(j).
+  Better when you have large data sets (used more in practise)
+
+Both batch and stochastic GD are iterative algorithms; Only for linear regression (
+
+
