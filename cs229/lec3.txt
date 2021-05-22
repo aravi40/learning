@@ -1,0 +1,8 @@
+Lec3
+https://www.youtube.com/watch?v=het9HFqo1TQ&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=3
+https://www.studocu.com/en-us/document/stanford-university/machine-learning/lecture-notes/cs229-notes-1-2-lecture-notes-1/6579953/view
+
+Can all points be fit perfetctly by a straight line. no ! 
+One alternative is: Locally weighted regression. It is a non-parametric learning algorithm. which means that the amount of data & parameters grows witht the size of the data.
+
+look at the local neighborhood of x, and fit a straight line and make a prediction based on this line. So essentially, focus on points nearby and fit a straight line to make predictions.
