@@ -9,3 +9,5 @@ data strctures: https://www.geeksforgeeks.org/data-structures/?ref=shm
 Searching
 ************
 https://www.geeksforgeeks.org/searching-algorithms/
+  https://www.geeksforgeeks.org/median-of-two-sorted-arrays/
+  
