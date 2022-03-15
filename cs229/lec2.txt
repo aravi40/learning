@@ -1,15 +1,33 @@
 Lec2: Linear regression
 https://www.youtube.com/watch?v=4b4MUYve_U8&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=2
-
 Notes:
+https://cs229.stanford.edu/summer2019/
 https://machinelearningmedium.com/2017/08/11/cost-function-of-linear-regression/
 https://www.studocu.com/en-us/document/stanford-university/machine-learning/lecture-notes/cs229-notes-1-2-lecture-notes-1/6579953/view
 
-Gradient descent
-- Batch gradient descent 
-- Stochastic gradient descent : Instead of scanning through all examples, loop through j (parameter) and n (training set entry), one at a time and update theta(j).
-  Better when you have large data sets (used more in practise)
+Summary:
+real estate examples
+things to ask while designing:
+  - how do you represent a hypothesis: for lin regression: theta0 + theta1*x; expand to other parameters
+h[x] = summ(theta*x) where theta is parameters
+  - x and theta are n+1 dimensional since we add a dummy feature with x0=1
+  - how to choose theta ? minimize J[theta] = summation for all training examples (h[x] - y)^2
 
-Both batch and stochastic GD are iterative algorithms; Only for linear regression (
+Gradient descent:
+start with some initial value of theta
+change theta to reduce J[theta]
+Gradient descent can lead to local optima, but for linear regression, there's no local optima
+repeat updates for all features n until convergence
+alpha=0.01
+calculates the derivative by summing over all training examples for each parameter. called batch GD
 
+- Stochastic gradient descent:
+ Instead of scanning through all examples, loop through j (parameter) and n (training set entry), one at a time and update theta(j).
+  Better when you have large data sets (used more in practice)
+  movement isn't towards the global mimima; usually oscillates.
+  reduce learning rate to minimize these oscillations
 
+Both batch and stochastic GD are iterative algorithms.
+Only for linear regression, you can just use one step to reach the global optimum
+derivative of a function on a matrix.
+see notes for the derivation.

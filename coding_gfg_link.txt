@@ -1,0 +1,11 @@
+cpp language: https://www.geeksforgeeks.org/c-plus-plus/
+
+DSA
+************
+algorithms: https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=shm
+data strctures: https://www.geeksforgeeks.org/data-structures/?ref=shm
+
+
+Searching
+************
+https://www.geeksforgeeks.org/searching-algorithms/
